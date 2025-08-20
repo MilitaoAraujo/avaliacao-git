@@ -1,6 +1,6 @@
 const moveBtn = document.getElementById('moveBtn');
 
-// Adiciona um "ouvinte de eventos" que dispara uma função quando o mouse passa por cima
+/*// Adiciona um "ouvinte de eventos" que dispara uma função quando o mouse passa por cima
 moveBtn.addEventListener('mouseover', function() {
     // Obtém as dimensões da janela do navegador
     const screenWidth = window.innerWidth;
@@ -43,4 +43,14 @@ addTextBtn.addEventListener('click', function() {
 
     // Adiciona o novo parágrafo como um "filho" do contêiner de texto
     textContainer.appendChild(newParagraph);
-});
+});*/
+// --- Nova função usando uma estrutura de repetição ---
+function exibirNumeros() {
+    // Exemplo: exibir números de 1 a 10 no console
+    for (let i = 1; i <= 10; i++) {
+        console.log(`Número ${i}`);
+    }
+}
+
+// Chama a função para testar
+exibirNumeros();
